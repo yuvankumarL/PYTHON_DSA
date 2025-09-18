@@ -1,0 +1,28 @@
+what is the use of this?
+    let say you have 2 systems A and B. In system A your code runs within 0.5 sec, but in system B it takes 
+    1 sec.
+    When you run your code on different computers, it might take different amounts of time. 
+    For example, on computer A it takes 0.5 seconds, and on computer B it takes 1 second. 
+    This happens because computers have different speeds.
+    Time complexity helps you understand how your code will perform as the input gets bigger, 
+    no matter which computer you use. It tells you how much slower your code will get if you give 
+    it more data, not just how fast it runs on one computer.
+
+    Space complexity is about how much memory (RAM) your code needs to run, 
+    depending on the size of the input. Just like time complexity tells you 
+    how the running time grows as you give more data, space complexity tells you 
+    how the memory usage grows as the input gets bigger. This helps you understand if your code 
+    will use too much memory when working with large amounts of data, no matter which computer you use.
+
+
+# Big O Notation
+O(1) Constant
+O(N) Linear
+O(logN) Lograthmic
+o(NlogN) Linear Lograthmic
+O(N^2) Quadratic
+
+
+
+
+
