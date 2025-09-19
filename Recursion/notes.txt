@@ -1,0 +1,33 @@
+
+Function is the main pillar of recursion
+function is a mehtod where some particluar task is done
+Example:
+    we are swaping elements
+        temp = arr[0]
+        arr[0] = arr[1]
+        arr[1] = temp
+    let say this operation is carried on various places instead of repeating this line everytime 
+    we can write this in a function and we can use it whenever we need it
+
+
+Example for recursion:
+    lets say, this is your paper distribution time, so students are sitting in 4 rows
+    one way is teacher distributing paper from first to last row and collecting it back
+    another way is passing the answer sheets from first students to second row and vice versa
+    this second way concept is used in recursion.
+
+    Diagram for paper distribution analogy:
+        Teacher → Row 1 → Row 2 → Row 3 → Row 4
+                ↓        ↓        ↓        ↓
+                (pass)   (pass)   (pass)   (pass)
+
+        Collecting back (reverse):
+        Row 4 → Row 3 → Row 2 → Row 1 → Teacher
+        ↑        ↑        ↑        ↑
+        (pass)  (pass)   (pass)   (pass)
+
+        This "passing" from one row to the next is like recursion:
+        - Each student (row) passes the paper to the next (recursive call).
+        - When the last student gets the paper, the process reverses (returns back through the calls).
+
+In recursion there must be a base condition
