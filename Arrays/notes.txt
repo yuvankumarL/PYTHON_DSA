@@ -1,0 +1,25 @@
+
+Arrays:
+    Same datatype
+    static datatype
+    contiguous memory
+
+4 operations:
+    1. access - using index value
+        complexity: o(1)
+    2. insert 
+        complexity: best case O(1) - eg., insert value at last
+                    worst case O(n-i) - eg., insert value inbetween the array, because after inserting the 
+                                        value in ith place, the value next to the i+1th place to n-1 is 
+                                        shifted right.
+    3. delete
+        complexity: worst case O(n-i) - eg., delete value inbetween the array, because after deleting the 
+                                        value in ith place, the value from to the i+1th place to n-1 is 
+                                        shifted left.
+                    best case O(1) - eg., delete value at last
+    4. search
+        complexity: best case O(1) - eg., if the element present in the first index
+                    worst case o(n) - eg., if the element present in last index
+
+mainly data structure is choosen based on the above 4 operations
+We will choose it based on the time complexity required for these 4 operations
