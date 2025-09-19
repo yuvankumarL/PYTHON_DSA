@@ -1,0 +1,22 @@
+# seraching algorithms
+
+There are 2 types of seraching algorithms
+
+1. linear search
+--------------------------------------------------------------
+a = [1, 2, 3, 4, 5]
+target = 3
+diagram:
+i = 0 --> a[0]=1 --> 1 != 3
+i = 1 --> a[1]=2 --> 2 != 3
+i = 2 --> a[2]=3 --> 3 == 3
+so, return i
+index = 2
+if an element is not found in array
+return no found or -1
+
+Analysis:
+Time Complexity: O(n)
+Space Complexity: O(n)
+
+2. binary search
